@@ -1,6 +1,7 @@
 function bringSingara(money){
-    console.log('mama singara den');
-    console.log(money);
+    console.log('[taka disen ', money)
+    console.log('ai nen singara')
 }
+var taka = 300;
 
-bringSingara(5000);
+bringSingara(taka);

@@ -1,6 +1,6 @@
-function bringSingra(money){
-    confirm.console.log('mama singra den');
+function bringSingara(money){
+    console.log('mama singara den');
     console.log(money);
 }
 
-bringSingra(100);
+bringSingara(5000);

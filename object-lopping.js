@@ -16,5 +16,9 @@ var soppingCart = {
     keyboard: 5,
     mouse: 1,
     pen: 25,
-    shoes:2
+    shoes:2,
+    bottle:1
 }
+
+const key = Object.keys(soppingCart);
+console.log(key);

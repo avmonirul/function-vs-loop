@@ -11,3 +11,12 @@ var mobile ={
     Storage:'128gb',
     camera:'7px'
 }
+
+var myComputer = {
+    brand: "levovo",
+    price: 39000,
+    color: 'silver',
+    processor: 'i7'
+}
+console.log(myComputer.price);
+console.log(mobile.brand);

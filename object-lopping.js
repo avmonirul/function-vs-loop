@@ -22,3 +22,6 @@ var soppingCart = {
 
 const key = Object.keys(soppingCart);
 console.log(key);
+
+const values = Object.values(soppingCart);
+console.log(values);

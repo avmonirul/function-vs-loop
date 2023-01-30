@@ -15,11 +15,20 @@ var penCount2 = soppingCart['pen']
 var propertyName = 'mouse';
 
 var propertyValue = soppingCart[propertyName]
-console.log(propertyName, propertyValue);
+// console.log(propertyName, propertyValue);
 
 var properties = Object.keys(soppingCart);
 var propertyValue = Object.values(soppingCart)
 // console.log(properties)
 // console.log(propertyValue)
-// console.log(soppingCart);
+console.log(soppingCart);
+
+
+//set properties value
+soppingCart.mouse = 15;
+console.log(soppingCart);
+soppingCart['mouse'] = 29;
+console.log(soppingCart);
+soppingCart[propertyName] = 89;
+console.log(soppingCart);
 
